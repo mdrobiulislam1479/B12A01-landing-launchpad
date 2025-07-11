@@ -139,3 +139,24 @@ main {
 .reviewer span {
   color: #00000050;
 }
+.focus {
+  background-color: white;
+  border-radius: 14px;
+  padding: 70px 0;
+  text-align: center;
+}
+.focus h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.focus p {
+  color: #00000070;
+}
+.focus button {
+  display: block;
+  margin: 20px auto;
+}
+.focus img {
+  border-radius: 48px;
+}
