@@ -36,7 +36,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: white;
+  background-color: transparent;
   color: #4e47ff;
 }
 .banner {
@@ -159,4 +159,46 @@ main {
 }
 .focus img {
   border-radius: 48px;
+}
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding: 70px 0;
+}
+.newsletter h1 {
+  font-size: 100px;
+  font-weight: bold;
+  width: 50%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+form input,
+textarea {
+  width: 500px;
+  margin-bottom: 20px;
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: 1px solid #d6dded;
+}
+form textarea {
+  resize: none;
+}
+::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #00000050;
+}
+form button {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
